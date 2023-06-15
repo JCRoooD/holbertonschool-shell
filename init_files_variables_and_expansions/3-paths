@@ -1,2 +1,2 @@
 #!/bin/bash
-find /PATH | wc -1
+find /path/to/directory -type d -mindepth 1 -maxdepth 1 | wc -l
